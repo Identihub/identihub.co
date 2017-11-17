@@ -22,7 +22,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'sans-serif';
 }
 
 a {
@@ -46,7 +46,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -63,12 +63,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   .navbar-header {
     .navbar-brand {
-      font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+      font-family: 'Overpass', 'sans-serif';
       font-weight: 200;
       letter-spacing: 1px;
       color: $theme-primary;
@@ -84,7 +84,7 @@ p {
   }
   .nav > li {
     > a {
-      font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+      font-family: 'Overpass', 'sans-serif';
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 11px;
@@ -474,7 +474,7 @@ footer {
 }
 
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
