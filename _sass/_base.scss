@@ -261,6 +261,12 @@ section {
         margin-bottom: 0;
       }
     }  
+    
+    /* Added center alignment for the laptop by Anxhelo */
+   
+    #laptop {
+      margin: 0 auto;
+    }
     .section-post-heading {
       margin-bottom: 100px;
       h2 {
