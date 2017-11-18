@@ -275,7 +275,14 @@ section {
       max-width: 500px;
       margin: 0 auto;
     }
+    /* Added middle alignment of laptop container by Anxhelo */
     .device-container {
+          .middle {
+      min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+      min-height: 100vh; /* These two lines are counted as one */
+      display: flex;
+      align-items: center;
+    }
       margin-bottom: 100px;
     }
     .feature-item {
