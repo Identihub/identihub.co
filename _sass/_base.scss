@@ -187,7 +187,7 @@ header {
     }
   }
   .device-container {
-    max-width: 300px;
+    max-width: none;
     margin: 0 auto 100px;
     .screen img {
       border-radius: 1px;
@@ -233,6 +233,7 @@ section {
     font-size: 50px;
   }
   &.download {
+    background: #444444;
     padding: 75px 0;
     position: relative;
   h2 {
