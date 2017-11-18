@@ -260,7 +260,7 @@ section {
         margin-bottom: 0;
       }
     }
-    // section-post-heading fatto da Antonio
+    
     .section-post-heading {
       margin-bottom: 100px;
       h2 {
@@ -372,15 +372,15 @@ section {
           color: white;
         }
         &.social-twitter a {
-          background-color: #1da1f2;
+          background-color: #3380D4;
           &:hover {
-            background-color: #0d95e8;
+            background-color: #1da1f2;
           }
         }
         &.social-facebook a {
-          background-color: #3b5998;
+          background-color: #3380D4;
           &:hover {
-            background-color: #344e86;
+            background-color: #3B5998;
           }
         }
         &.social-google-plus a {
@@ -428,12 +428,12 @@ section {
 }
 
 footer {
-  background-color: #222222;
+  background-color: #444444;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
   p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
   }
   ul {
@@ -516,7 +516,7 @@ body {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: #444444;
         position: absolute;
         bottom: 0;
         text-align: center;
