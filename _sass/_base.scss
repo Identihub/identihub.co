@@ -227,6 +227,15 @@ header {
   }
 }
 
+/* Added middle alignment of the laptop container inside the colon div by Anxhelo */
+
+col-md-4 {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+        }
+
 section {
   padding: 100px 0;
   h2 {
