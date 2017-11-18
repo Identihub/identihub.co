@@ -389,6 +389,12 @@ section {
             background-color: #d73925;
           }
         }
+        &.social-email a {
+          background-color: #dd4b39;
+          &:hover {
+            background-color: #444444;
+          }
+        }
       }
     }
   }
@@ -466,7 +472,7 @@ footer {
 .btn-outline {
   color: white;
   border-color: white;
-  border: 1px solid;
+  border: 1.5px solid;
   &:hover, &:focus, &:active, &.active {
     color: white;
     background-color: $theme-primary;
@@ -479,7 +485,7 @@ footer {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-radius: 300px;
+  border-radius: 250px;
 }
 
 .btn-xl {
