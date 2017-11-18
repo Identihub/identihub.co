@@ -1,10 +1,11 @@
 .heading-font {
   font-family: 'Overpass', 'sans-serif';
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .body-font {
   font-family: 'Overpass', 'sans-serif';
+  font-weight: 600;
 }
 
 .alt-font {
@@ -22,6 +23,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Overpass', 'sans-serif';
+  font-weight: 600;
 }
 
 a {
@@ -46,8 +48,8 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Overpass', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 p {
@@ -63,7 +65,7 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Overpass', 'sans-serif';
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.5px;
   .navbar-header {
     .navbar-brand {
@@ -155,13 +157,6 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), $head-primary;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
   .header-content {
     text-align: center;
     padding: 150px 0 50px;
