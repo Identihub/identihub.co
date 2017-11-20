@@ -232,13 +232,6 @@ section {
   h2 {
     font-size: 50px;
   }
-  #why {
-    .a {
-       &:hover, &:focus {
-    color: #444444;
-      }
-    }
-  }
   &.download {
     background: #444444;
     padding: 75px 0;
@@ -258,6 +251,12 @@ section {
       }
     }
   }
+  &.why {
+   a { 
+     &:hover, &:focus {
+    color: #444444;
+    }
+  }    
   &.features {
     .section-heading {
       margin-bottom: 100px;
