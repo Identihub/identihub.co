@@ -58,11 +58,6 @@ p {
   margin-bottom: 20px;
 }
 
-#laptop {
-  position: absolute;
-  margin: auto;
-}
-
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -257,6 +252,10 @@ section {
     }
   }
   &.features {
+    .a {
+       &:hover, &:focus {
+    color: #444444;
+      }
     .section-heading {
       margin-bottom: 100px;
       h2 {
@@ -281,10 +280,6 @@ section {
     }
     .device-container {
       margin-bottom: 100px;
-    }
-    .center-laptop {
-        position: absolute;
-        margin: auto;
     }
     .feature-item {
       text-align: center;
