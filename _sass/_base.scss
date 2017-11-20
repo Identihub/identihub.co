@@ -253,7 +253,7 @@ section {
   }
   &.features {
     .a {
-       hover, focus {
+       &:hover, &:focus {
     color: #444444;
       }
     .section-heading {
