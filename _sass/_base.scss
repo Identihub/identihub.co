@@ -253,7 +253,7 @@ section {
   }
   &.features {
     .a {
-       &:hover, &:focus {
+       hover, focus {
     color: #444444;
       }
     .section-heading {
@@ -394,6 +394,12 @@ section {
           }
         }
         &.social-email a {
+          background-color: #3380D4;
+          &:hover {
+            background-color: #444444;
+          }
+            }
+        &.social-github a {
           background-color: #3380D4;
           &:hover {
             background-color: #444444;
