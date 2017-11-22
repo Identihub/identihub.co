@@ -76,6 +76,7 @@ p {
     .navbar-brand {
       font-family: 'Overpass', 'sans-serif';
       font-weight: 800;
+      font-size: 20px;
       letter-spacing: 0.5px;
       color: #444444;
       &:hover, &:focus {
@@ -83,7 +84,7 @@ p {
       }
     }
     .navbar-toggle {
-      font-size: 12px;
+      font-size: 16px;
       color: #444444;
       padding: 8px 10px;
     }
@@ -93,7 +94,7 @@ p {
       font-family: 'Overpass', 'sans-serif';
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      font-size: 12px;
+      font-size: 16px;
       color: #444444;
       &:focus {
         color: #444444;
