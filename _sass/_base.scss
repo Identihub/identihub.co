@@ -278,10 +278,6 @@ section {
     .device-container {
       margin-bottom: 100px;
     }
-    .center-laptop {
-        position: absolute;
-        margin: auto;
-    }
     .feature-item {
       text-align: center;
       margin-bottom: 100px;
@@ -415,7 +411,7 @@ section {
 @media (min-width: 768px) {
   section.download h2 {
     background: #444444;
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
