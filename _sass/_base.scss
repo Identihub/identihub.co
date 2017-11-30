@@ -157,7 +157,9 @@ input[type=text] {
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    border-radius: 1px;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-size: 14px;
 }
 
 input[type=text]:focus {
@@ -169,6 +171,7 @@ input[type=button], input[type=submit], input[type=reset] {
   color: white;
   border-color: white;
   border: 1.5px solid;
+  border-radius: 100px;
   &:hover, &:focus, &:active, &.active {
     color: white;
     background-color: $theme-primary;
