@@ -500,14 +500,7 @@ footer {
 }
 
 .btn-outline {
-  color: white;
-  border-color: white;
-  border: 1.5px solid;
-  &:hover, &:focus, &:active, &.active {
-    color: white;
-    background-color: $theme-primary;
-    border-color: $theme-primary;
-  }
+  &:hover, &:focus, &:active, &.active {  }
 }
 
 .btn {
@@ -516,6 +509,8 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 250px;
+  background-color: white;
+  color: #444444;
 }
 
 .btn-xl {
