@@ -12,7 +12,8 @@
   {% include contact.html %}
   {% include scripts.html %}
   <script> 
-      $("#message").show();
+      $("#message").hide();
+      setTimeout(function() { $("#message").show(); }, 0);
       setTimeout(function() { $("#message").hide(); }, 3500);
     </script>
 </body>
