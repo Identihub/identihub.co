@@ -156,14 +156,14 @@ p {
 input[type=text] {
     background-color: transparent;
     color: white;
-    border: 1px solid white;
-    border-radius: 100px;
+    border: none;
+    border-bottom: 1px solid white;
     padding: 10px 30px;
     font-size: 14px;
 }
 
 input[type=text]:focus {
-    border: 1.5px solid white;
+    border-bottom: 2px solid white;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
