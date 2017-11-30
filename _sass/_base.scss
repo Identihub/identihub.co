@@ -153,6 +153,26 @@ p {
   }
 }
 
+input[type=text] {
+    border: 1px solid white;
+    border-radius: 1px;
+}
+
+input[type=text]:focus {
+    border: 2px solid white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  color: white;
+  border-color: white;
+  border: 1.5px solid;
+  &:hover, &:focus, &:active, &.active {
+    color: white;
+    background-color: $theme-primary;
+    border-color: $theme-primary;
+  }   
+}
+
 header {
   position: relative;
   width: 100%;
