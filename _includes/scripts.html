@@ -24,24 +24,11 @@
 <!-- Theme JavaScript -->
 <script src="/js/new-age.min.js"></script>
 
-<script type="text/javascript">
-<!--
-    function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-//-->
-</script>
-
 <script>
-$('#submit').click(function() {
-   $('#message').show();
-   setTimeout(function() { 
-       $('#message').fadeOut(); 
-   }, 3500);
+$( "#submit" ).click(function() {
+  $( "#message" ).toggle( "slow", function() {
+    // Animation complete.
+  });
 });
 </script>
 
