@@ -154,16 +154,18 @@ p {
 }
 
 input[type=text] {
-    opacity: 0;
+    background-color: transparent;
+    color: white;
     border: 1px solid white;
     border-radius: 1px;
 }
 
 input[type=text]:focus {
-    border: 2px solid white;
+    border: 1.5px solid white;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
+  background-color: transparent;
   color: white;
   border-color: white;
   border: 1.5px solid;
