@@ -12,9 +12,9 @@
   {% include contact.html %}
   {% include scripts.html %}
   <script> 
-      $("#message").hide();
-      setTimeout(function() { $("#message").show(); }, 0);
-      setTimeout(function() { $("#message").hide(); }, 3500);
+      $("#message").show().delay(5000).queue(function(n) {
+  $(this).hide(); n();
+});
     </script>
 </body>
 
