@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-  <script> 
-      $("#message").show();
-      setTimeout(function() { $("#message").hide(); }, 3500);
-    </script>
-  </head>
+
 {% include head.html %}
 
 <body id="page-top">
@@ -16,6 +11,10 @@
   {% include feature.html %}
   {% include contact.html %}
   {% include scripts.html %}
+  <script> 
+      $("#message").show();
+      setTimeout(function() { $("#message").hide(); }, 3500);
+    </script>
 </body>
 
 </html>
