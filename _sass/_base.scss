@@ -158,7 +158,7 @@ input[type=text] {
     color: white;
     border: 1px solid white;
     border-radius: 100px;
-    padding: 15px 45px;
+    padding: 10px 30px;
     font-size: 14px;
 }
 
@@ -172,6 +172,7 @@ input[type=button], input[type=submit], input[type=reset] {
   border-color: white;
   border: 1.5px solid;
   border-radius: 100px;
+  padding: 10px 30px;
   &:hover, &:focus, &:active, &.active {
     color: white;
     background-color: $theme-primary;
