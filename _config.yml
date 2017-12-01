@@ -2,8 +2,8 @@
 title: Identihub 
 description: Open Source brand & assets management software
 
-baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://anxh3l0.github.io" # the base hostname & protocol for your site
+root: "/identihub.github.io" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://uracreative.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
