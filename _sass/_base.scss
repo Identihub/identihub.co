@@ -517,7 +517,7 @@ footer {
 }
 
 .btn-outline {
-  &:hover, &:focus, &:active, &.active {  }
+  &:hover, &:focus, &:active, &.active { }
 }
 
 .btn {
@@ -528,18 +528,6 @@ footer {
   border-radius: 250px;
   background-color: white;
   color: #444444;
-}
-
-.btn {
-  &:hover {
-  font-family: 'Overpass', 'sans-serif';
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 250px;
-  background-color: #444444;
-  color: white;
-  }
 }
 
 .btn-xl {
