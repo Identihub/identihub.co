@@ -530,6 +530,18 @@ footer {
   color: #444444;
 }
 
+.btn {
+  &:hover, &:focus {
+  font-family: 'Overpass', 'sans-serif';
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 250px;
+  background-color: white;
+  color: #3380d4;
+  }
+}
+
 .btn-xl {
   padding: 15px 45px;
   font-size: 14px;
