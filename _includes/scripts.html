@@ -26,17 +26,10 @@
 
 <!-- Scripts to delay form submit after animation and success message is shown -->
 <script>
-$( "#send" ).click(function() {
-  $( "#message" ).toggle( "2000", function() {
-    // Animation complete.
-  });
-});
-</script>
-
-<script>
 $('form').submit( function(event) {
     var formId = this.id,
         form = this;
+   $( "#message" ).toggle( "2000", function();
 
     event.preventDefault();
 
