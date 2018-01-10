@@ -34,22 +34,17 @@ $( "#submit" ).click(function() {
 
 <!-- Script to disable Submit button unless email field is filled correctly -->
 <script>
-$(document).ready(function(){
-$('form > input').keyup(function() {
+function checkform()
+    {
+        var f = document.forms["newsletter"].elements;
+        var cansubmit = true;
 
-var empty1 = false;
-$('form > input').each(function() {
-if ($(this).val() === '') {
- empty1 = true;
-}
-});
+        for (var i = 0; i < f.length; i++) {
+            if (f[i].value.length == 0) cansubmit = false;
+        }
 
-if (empty1) {
-$('#submit').attr('disabled', 'disabled');
-} else {
-
-     $('#submit').prop("disabled", false);
-}
-});
-});
+        if (cansubmit) {
+            document.getElementById('submit').disabled = !cansubmit;
+        }
+    }
 </script>
