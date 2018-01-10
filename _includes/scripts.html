@@ -27,7 +27,7 @@
 <!-- Scripts to delay form submit after animation and success message is shown -->
 <script>
 $( "#send" ).click(function() {
-  $( "#message" ).toggle( "3000", function() {
+  $( "#message" ).toggle( "2500", function() {
     // Animation complete.
   });
 });
@@ -42,7 +42,7 @@ $( "#send" ).click(function() {
 
     setTimeout( function () { 
         form.submit();
-    }, 4500);
+    }, 3500);
 }); 
 </script>
 <!-- Script to disable Submit button unless email field is filled correctly -->
