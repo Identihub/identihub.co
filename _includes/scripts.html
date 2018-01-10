@@ -24,12 +24,20 @@
 <!-- Theme JavaScript -->
 <script src="{{ site.url }}js/new-age.min.js"></script>
 
+<!-- Scripts to delay form submit after animation and success message is shown -->
+
 <script>
-$( "#send" ).click(function() {
-  $( "#message" ).toggle( "2000", function() {
-    // Animation complete.
-  });
-});
+$('form').submit( function(event) {
+    var formId = this.id,
+        form = this;
+    $( "#message" ).toggle( "2000", function();
+
+    event.preventDefault();
+
+    setTimeout( function () { 
+        form.submit();
+    }, 300);
+}); 
 </script>
 
 <!-- Script to disable Submit button unless email field is filled correctly -->
