@@ -38,14 +38,14 @@ $(document).ready(function (){
     validate();
     $('#inputEmail').change(validate);
 });
+</script>
 
+<script>
 function validate(){
     if ($('#inputEmail').val().length  >  0
-        {
         $("input[type=submit]").prop("disabled", false);
     }
     else {
         $("input[type=submit]").prop("disabled", true);
     }
-}
 </script>
