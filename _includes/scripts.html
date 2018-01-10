@@ -26,14 +26,11 @@
 
 <!-- Scripts to delay form submit after animation and success message is shown -->
 <script>
-$('form').submit( function(event) {
+$( "#send" ).click(function() {
+  $( "#message" ).toggle( "2000", function() {
+      $('form').submit( function(event) {
     var formId = this.id,
         form = this;
-   $( "#send" ).click(function() {
-  $( "#message" ).toggle( "2000", function() {
-    // Animation complete.
-  });
-});
 
     event.preventDefault();
 
@@ -41,6 +38,13 @@ $('form').submit( function(event) {
         form.submit();
     }, 300);
 }); 
+    // Animation complete.
+  });
+});
+</script>
+
+<script>
+
 </script>
 
 <!-- Script to disable Submit button unless email field is filled correctly -->
