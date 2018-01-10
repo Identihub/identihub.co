@@ -29,9 +29,9 @@
 $('#newsletter').submit(function(event) {
 	event.preventDefault();
 	var self = this;
-	$( "#message" ).toggle( "2500", function() {
+	window.setTimeout(function() {
 		self.submit();
-	}, 1500);
+	}, 2000);
 });
 </script>
 
