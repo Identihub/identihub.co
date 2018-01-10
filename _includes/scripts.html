@@ -25,7 +25,7 @@
 <script src="{{ site.url }}js/new-age.min.js"></script>
 
 <script>
-$( "#submit" ).click(function() {
+$( "#send" ).click(function() {
   $( "#message" ).toggle( "2000", function() {
     // Animation complete.
   });
@@ -44,9 +44,9 @@ if ($(this).val() === '') {
 });
 
 if (empty1) {
-$('#submit').attr('disabled', 'disabled');
+$('#send').attr('disabled', 'disabled');
 } else {
-     $('#submit').prop("disabled", false);
+     $('#send').prop("disabled", false);
 }
 });
 </script>
