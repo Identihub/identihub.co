@@ -38,7 +38,7 @@ $( "#submit" ).click(function() {
 $('form > input').keyup(function() {
 var empty1 = false;
 $('form > input').each(function() {
-if ($(this).val() === '') && ($(this).val() === ' ') && ($(this).val() === '   ') {
+if ($(this).val() === '') || ($(this).val() === ' ') || ($(this).val() === '   ') {
  empty1 = true;
 }
 });
