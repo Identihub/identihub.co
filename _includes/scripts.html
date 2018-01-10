@@ -33,18 +33,20 @@ $( "#submit" ).click(function() {
 </script>
 
 <!-- Script to disable Submit button unless email field is filled correctly -->
+
 <script>
-function checkform()
-    {
-        var f = document.forms["newsletter"].elements;
-        var cansubmit = true;
+$('form > input').keyup(function() {
+var empty1 = false;
+$('form > input').each(function() {
+if ($(this).val() === '') {
+ empty1 = true;
+}
+});
 
-        for (var i = 0; i < f.length; i++) {
-            if (f[i].value.length == 0) cansubmit = false;
-        }
-
-        if (cansubmit) {
-            document.getElementById('submit').disabled = !cansubmit;
-        }
-    }
+if (empty1) {
+$('#submit').attr('disabled', 'disabled');
+} else {
+     $('#submit').prop("disabled", false);
+}
+});
 </script>
