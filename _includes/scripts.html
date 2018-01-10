@@ -28,23 +28,9 @@
 <script>
 $( "#send" ).click(function() {
   $( "#message" ).toggle( "2000", function() {
-      $('form').submit( function(event) {
-    var formId = this.id,
-        form = this;
-
-    event.preventDefault();
-
-    setTimeout( function () { 
-        form.submit();
-    }, 300);
-}); 
     // Animation complete.
   });
 });
-</script>
-
-<script>
-
 </script>
 
 <!-- Script to disable Submit button unless email field is filled correctly -->
