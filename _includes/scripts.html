@@ -28,7 +28,17 @@
 <script>
 $( "#send" ).click(function() {
   $( "#message" ).toggle( "3000", function() {
-	   $('#newsletter').delay(2500).submit();
+	$('form').submit( function(event) {
+    	var formId = this.id,
+        form = this;
+    mySpecialFunction(formId);
+
+    event.preventDefault();
+
+    setTimeout( function () { 
+        form.submit();
+    }, 1500);
+}); 
     // Animation complete.
   });
 });
