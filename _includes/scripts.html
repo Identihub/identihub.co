@@ -29,7 +29,11 @@
 $('form').submit( function(event) {
     var formId = this.id,
         form = this;
-   $( "#message" ).toggle( "2000", function();
+   $( "#send" ).click(function() {
+  $( "#message" ).toggle( "2000", function() {
+    // Animation complete.
+  });
+});
 
     event.preventDefault();
 
