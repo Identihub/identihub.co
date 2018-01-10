@@ -28,6 +28,12 @@
 <script>
 $( "#send" ).click(function() {
   $( "#message" ).toggle( "3000", function() {
+    // Animation complete.
+  });
+});
+</script>
+
+<script>
 	$('form').submit( function(event) {
     	var formId = this.id,
         form = this;
@@ -38,11 +44,7 @@ $( "#send" ).click(function() {
         form.submit();
     }, 4500);
 }); 
-    // Animation complete.
-  });
-});
 </script>
-
 <!-- Script to disable Submit button unless email field is filled correctly -->
 
 <script>
