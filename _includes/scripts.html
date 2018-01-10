@@ -32,3 +32,20 @@ $( "#submit" ).click(function() {
 });
 </script>
 
+<!-- Script to disable Submit button unless email field is filled correctly -->
+<script>
+$(document).ready(function (){
+    validate();
+    $('#inputEmail').change(validate);
+});
+
+function validate(){
+    if ($('#inputEmail').val().length  >  0
+        {
+        $("input[type=submit]").prop("disabled", false);
+    }
+    else {
+        $("input[type=submit]").prop("disabled", true);
+    }
+}
+</script>
