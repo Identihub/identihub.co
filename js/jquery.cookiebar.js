@@ -30,7 +30,7 @@
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
 			declineFunction: function(cookieValue){if(cookieValue=='enabled' || cookieValue=='accepted') window.location = window.location.href;}, //Function to run after decline
-			policyButton: true, //Set to true to show Privacy Policy button
+			policyButton: false, //Set to true to show Privacy Policy button
 			policyText: 'Privacy Policy', //Text on Privacy Policy button
 			policyURL: '/privacy-policy/', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
@@ -43,7 +43,7 @@
 			effect: 'slide', //Options: slide, fade, hide
 			element: 'body', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
-			fixed: false, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+			fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			bottom: true, //Force CSS when fixed, so bar appears at bottom of website
 			zindex: '', //Can be set in CSS, although some may prefer to set here
 			domain: String(window.location.hostname), //Location of privacy policy
