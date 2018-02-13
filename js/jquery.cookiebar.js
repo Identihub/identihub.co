@@ -41,7 +41,7 @@
 			renewOnVisit: false, //Renew the cookie upon revisit to website
 			forceShow: false, //Force cookieBar to show regardless of user cookie preference
 			effect: 'slide', //Options: slide, fade, hide
-			element: 'body.page-top', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
+			element: 'body', //Element to append/prepend cookieBar to. Remember "." for class or "#" for id.
 			append: false, //Set to true for cookieBar HTML to be placed at base of website. Actual position may change according to CSS
 			fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
 			bottom: true, //Force CSS when fixed, so bar appears at bottom of website
