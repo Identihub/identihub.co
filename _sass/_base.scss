@@ -563,6 +563,8 @@ footer {
   padding: 15px 45px;
   font-size: 14px;
   background-color: #F96854;
+  color: white;
+  :hover { color: #ccc; }
 }
 
 ::-moz-selection, ::selection {
