@@ -190,6 +190,7 @@ input[type=button], input[type=submit], input[type=reset] {
   border: 1.5px solid;
   border-radius: 100px;
   padding: 10px 30px;
+  margin: 1em;
   &:hover, &:focus, &:active, &.active {
     color: white;
     background-color: $theme-primary;
