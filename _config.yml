@@ -3,7 +3,7 @@ title: Identihub
 description: Open Source brand & assets management software
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://uracreative.github.io/identihub.co/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -12,5 +12,6 @@ permalink: pretty
 paginate: 1
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
+languages: ["en", "sq", "it"]
 # Build settings

@@ -4,18 +4,18 @@
             <div class="col-sm-7">
                 <div class="header-content">
                     <div class="header-content-inner">
-                        <h1>Open source hosting for your brand and visual assets</h1>
-                        <a href="https://demo.identihub.co" class="btn btn-outline btn-xl demo" target="blank">TRY THE DEMO (ALPHA)</a>
-                        <a href="https://patreon.com/ura" class="btn btn-outline btn-xl patreon" target="blank">Support on Patreon</a>
+                        <h1>{% t header %}</h1>
+                        <a href="https://demo.identihub.co" class="btn btn-outline btn-xl demo" target="blank">{% t demo %}</a>
+                        <a href="https://patreon.com/ura" class="btn btn-outline btn-xl patreon" target="blank">{% t patreon %}</a>
                         <br />
                         <br />
                         <br />
                         <br />   
                         <div>
                              <form action="https://tinyletter.com/uracreative" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/uracreative', 'popupwindow', 'scrollbars=no,width=800,height=500');return true">
-                                 <p>Subscribe to get updates on Identihub</p>
-                                 <p><input type="email" placeholder="email@example.com" name="email" id="tlemail" />
-                                 <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p>
+                                 <p>{% t email_label %}</p>
+                                 <p><input type="email" placeholder="{% t email_placeholder %}" name="email" id="tlemail" />
+                                 <input type="hidden" value="1" name="embed"/><input type="submit" value="{% t subscribe_button %}" /></p>
                             </form>
                         </div>
                     </div>

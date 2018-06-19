@@ -12,23 +12,31 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="https://demo.identihub.co" target="blank">Try Demo</a>
+                    <a class="page-scroll" href="https://demo.identihub.co" target="blank">{% t try_demo %}</a>
                     </li>
                 <li>
-                    <a class="page-scroll" href="#features">Features</a>
+                    <a class="page-scroll" href="#features">{% t features %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Showcases</a>
+                    <a class="page-scroll" href="#portfolio">{% t showcases %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#why">Why</a>
+                    <a class="page-scroll" href="#why">{% t why %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Join</a>
+                    <a class="page-scroll" href="#contact">{% t join %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="mailto:hello@ura.design">Contact</a>
+                    <a class="page-scroll" href="mailto:hello@ura.design">{% t contact %}</a>
                 </li>
+                <li class="dropdown">
+					<a href="javascript:void(0)">{% t language_select %}</a>
+						<div class="dropdown-content">
+						<a href="{{ site.url }}"><img src="/img/en.png"></a>
+						<a href="{{ site.url }}/sq"><img src="/img/sq.png"></a>
+						<a href="{{ site.url }}/it"><img src="/img/sq.png"></a>
+					</div>
+				</li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
