@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <link rel="icon" type="image/png" href="/img/favicon.png" width="64" height="64">
 
     <title>Identihub</title>
@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href="/fonts/overpass/overpass.css" rel="stylesheet">
+    <link href="/fonts/overpass/overpass-mono.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
@@ -28,10 +29,6 @@
     <!-- Custom CSS
     <link rel="stylesheet" href="css/main.css" type="text/css"> -->
     <link href="/css/main.css" rel="stylesheet">
-    
-    <!-- Cookie Bar CSS -->
-    <link href="/css/jquery.cookiebar.css" rel="stylesheet">
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,6 +40,12 @@
 
 
 <body id="page-top">
+
+    <div id="cookieConsent" style="display: none;">
+    <div id="closeCookieConsent">x</div>
+    This website is using cookies. <a href="/privacy-policy" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
+    </div>
+
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -76,7 +79,7 @@
                 </li>
                 <li class="dropdown">
 					<a href="javascript:void(0)">Gjuha</a>
-						<div class="dropdown-content">
+					<div class="dropdown-content">
 						<a href="/"><img src="/img/en.png"></a>
 						<a href="/sq"><img src="/img/sq.png"></a>
 						<a href="/it"><img src="/img/it.png"></a>
@@ -378,12 +381,7 @@
 
 <!-- jQuery
 <script src="/vendor/jquery/jquery.min.js"></script> -->
-<script src="/js/jquery.cookiebar.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-     $.cookieBar();
-  });
-</script>
+<script src="/js/cookie.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -409,6 +407,7 @@
   })();
 </script>
 <!-- End Matomo Code -->
+
 
 </body>
 
