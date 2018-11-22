@@ -750,3 +750,16 @@ body {
     background-color: #E0C91F;
 }
 /*Cookie Consent End*/
+
+/*Chrome Custom Scrollbar*/
+\::-webkit-scrollbar
+  width: 10px
+
+\::-webkit-scrollbar-track
+  background: #f1f1f1
+
+\::-webkit-scrollbar-thumb
+  background: #888
+  &:hover
+    background: #555
+/*Chrome Custom Scrollbar End*/
