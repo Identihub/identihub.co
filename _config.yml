@@ -12,6 +12,5 @@ permalink: pretty
 paginate: 1
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
-languages: ["en"]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-watch]
 # Build settings
